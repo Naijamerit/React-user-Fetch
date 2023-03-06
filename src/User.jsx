@@ -18,7 +18,7 @@ export default function User() {
   return (
     <div>
       {state.map((user) => {
-        console.log(user);
+        // console.log(user);
         return (
           <div
             style={{ display: 'flex', marginTop: '10px', border: 'solid' }}
