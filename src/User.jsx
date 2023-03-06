@@ -34,10 +34,22 @@ export default function User() {
                 <a href={user.events_url}> Events </a>|
                 <a href={user.followers_url}> Followers</a> |
                 <a href={user.following_url}> Following</a> |
-                <a href={user.gists_url}> Gist</a> |<br/>
+                <a href={user.gists_url}> Gist</a> |<br />
                 <a href={user.url}> Web</a> |
-                <a href={user.repos_url}> Repository</a><br/>
-                <a style={{backgroundColor:'green', border:'solid green', borderRadius:'10px', color:'white', fontSize: '10px'}} href={user.subscriptions_url} >Subscribe</a>
+                <a href={user.repos_url}> Repository</a>
+                <br />
+                <a
+                  style={{
+                    backgroundColor: 'green',
+                    border: 'solid green',
+                    borderRadius: '5px',
+                    color: 'white',
+                    fontSize: '9px',
+                  }}
+                  href={user.subscriptions_url}
+                >
+                  Subscribe
+                </a>
                 <br />
               </span>
             </div>
