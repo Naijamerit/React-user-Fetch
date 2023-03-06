@@ -37,7 +37,7 @@ export default function User() {
                 <a href={user.gists_url}> Gist</a> |<br/>
                 <a href={user.url}> Web</a> |
                 <a href={user.repos_url}> Repository</a><br/>
-                <a style={{backgroundColor:'green', border:'solid green', borderRadius:'50px', color:'white', fontSize: '10px'}} href={user.subscriptions_url} >Subscribe</a>
+                <a style={{backgroundColor:'green', border:'solid green', borderRadius:'10px', color:'white', fontSize: '10px'}} href={user.subscriptions_url} >Subscribe</a>
                 <br />
               </span>
             </div>
