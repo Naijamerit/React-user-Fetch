@@ -11,3 +11,14 @@ img {
   border-radius: 50px;
   margin: 20px;
 }
+
+.card {
+  display: flex;
+  margin-top: 10px;
+  border: solid blue;
+  border-radius: 20px;
+  min-width: 70vh;
+}
+a {
+  text-decoration: none;
+}
